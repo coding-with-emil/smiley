@@ -1,0 +1,36 @@
+#include <windows.h>
+
+LANGUAGE LANG_NEUTRAL,SUBLANG_NEUTRAL
+
+1 ICON "icon.ico"
+
+LANGUAGE LANG_ENGLISH,SUBLANG_ENGLISH_US
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEFLAGSMASK 0x3F
+FILEFLAGS 0x0
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE VFT2_UNKNOWN
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "040904B0"
+    {
+      VALUE "FileDescription", "Smiley\0"
+      VALUE "FileVersion", "1.0.0.0\0"
+      VALUE "InternalName", "smiley.exe\0"
+      VALUE "LegalCopyright", "Coding with Emil (youtube.com/@codingwithemil)\0"
+      VALUE "OriginalFilename", "smiley.exe\0"
+      VALUE "ProductName", "Smiley\0"
+      VALUE "ProductVersion", "1.0.0.0\0"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x409, 0x4B0
+  }
+}
+
